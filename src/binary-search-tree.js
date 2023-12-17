@@ -85,7 +85,7 @@ class BinarySearchTree {
       }
       node.data = this._minValueNode(node.right).data;
 
-       node.right = this._removeNode(node.right, node.data);
+      node.right = this._removeNode(node.right, node.data);
     }
 
     return node;
